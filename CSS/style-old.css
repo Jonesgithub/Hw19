@@ -1,0 +1,10 @@
+body {
+background-color: #333 ;
+color: #fafafa ;
+}
+
+
+.nav, .socialmedia { display: flex ;}
+.nav li, .socialmedia li { list-style-type:none ;}
+
+header { display: flex ;}

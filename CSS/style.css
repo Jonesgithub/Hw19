@@ -1,0 +1,41 @@
+body {
+background-color: #333 ;
+color: #fafafa ;
+}
+
+
+.nav, .socialmedia, .skills, .projects { display: flex ; justify-content: space-evenly;} 
+.nav li, .socialmedia li { list-style-type:none ;}
+
+header { display: flex ;}
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.tabs li{
+    background: none;
+  
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current{
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content{
+    display: none;
+    border: thin solid #ccc;
+    padding: 15px;
+    min-height: 300px;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+    
